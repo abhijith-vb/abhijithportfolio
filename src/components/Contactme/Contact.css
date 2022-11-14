@@ -1,0 +1,31 @@
+.img-bottom img {
+  height: 500px;
+  object-fit: cover;
+  border-radius: 30px;
+  width: 100%;
+}
+.form {
+  margin: 40px;
+}
+.form input {
+  margin: 40px 0;
+}
+button {
+  margin-top: 40px;
+}
+.headings h1 {
+  font-size: 4em;
+  text-align: center;
+  color: #019fb6;
+}
+.buton {
+  width: 6rem;
+  height: 3rem;
+  background-color: #019fb6;
+  margin-left: 12em;
+  border-radius: 5px;
+}
+.buton:hover {
+  background-color: rgb(226, 112, 112);
+  color: white;
+}
