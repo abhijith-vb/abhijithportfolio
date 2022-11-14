@@ -10,7 +10,7 @@ const Footer = () => {
     height: 50px;
   `;
   return (
-    <div className="parent">
+    <div className="parent-footer">
       <div className="child">
         <div className="footer-img">
           <img src={abhijith} className="footer-image" alt="image" />
