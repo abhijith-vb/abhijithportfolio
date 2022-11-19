@@ -1,5 +1,5 @@
 .img-bottom img {
-  height: 500px;
+  max-height: 350px;
   object-fit: cover;
   border-radius: 30px;
   width: 100%;
@@ -29,3 +29,71 @@ button {
   background-color: rgb(226, 112, 112);
   color: white;
 }
+.colmain {
+  padding-top: 14px;
+
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.colmain2 {
+  padding-top: 14px;
+
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+@media only screen and (min-width: 300px) {
+  .buton {
+    margin-left: 4.5em;
+  }
+}
+@media only screen and (min-width: 355px) {
+  .buton {
+    margin-left: 8em;
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  .buton {
+    margin-left: 14em;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .buton {
+    margin-left: 17em;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .buton {
+    margin-left: 5em;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .buton {
+    margin-left: 10em;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .buton {
+    margin-left: 14em;
+  }
+}
+@media only screen and (min-width: 1536px) {
+  .buton {
+    margin-left: 17em;
+  }
+}
+/* @media only screen and (max-width: 355px) {
+  .buton {
+    margin-left: 5em;
+  }
+} */
+/* @media only screen and (max-width: 455px) {
+  .buton {
+    margin-left: 5em;
+  }
+} */
+/* @media only screen and (max-width: 640px) {
+  .buton {
+    margin-left: 10em;
+  }
+} */

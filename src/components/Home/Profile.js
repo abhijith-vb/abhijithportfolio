@@ -11,6 +11,7 @@ const Profile = () => {
     color: white;
     cursor: pointer;
   `;
+
   return (
     <div className="profile-container">
       <div className="profile-parent">

@@ -29,8 +29,10 @@ const Contact = () => {
   return (
     <div className="container">
       <div className="row">
-        <div className="col headings">
+        <div className=" headings">
           <h1>Contact Me</h1>
+        </div>
+        <div className="col-lg-6 col-md-12 col-sm-12 colmain">
           <div className="form">
             {/* <form ref={form} onSubmit={sendEmail}>
               <label>Name</label>
@@ -60,13 +62,14 @@ const Contact = () => {
                 placeholder="Your Message"
                 name="message"
               ></textarea>
-              <button type="submit" className=" buton">
+              <button type="submit" className="btn  buton">
                 submit
               </button>
             </form>
           </div>
         </div>
-        <div className="col">
+
+        <div className="col-lg-6 col-md-12 col-sm-12 colmain2">
           <div className="img-bottom">
             <img src={abhijith} />
           </div>

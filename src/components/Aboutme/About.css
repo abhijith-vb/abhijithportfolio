@@ -5,7 +5,7 @@
   border-radius: 30px;
 }
 .image {
-  padding: 4em;
+  padding-top: 4em;
 }
 .about {
   padding-top: 6em;
@@ -14,6 +14,7 @@
 .links {
   padding: 50px;
   display: flex;
+  justify-content: space-evenly;
 }
 .about h1 {
   font-size: 5em;
@@ -25,9 +26,9 @@
   padding-top: 2em;
 }
 .linksmain {
-  margin-left: 30px;
+  margin-left: 15px;
   font-size: 1em;
-  font-weight: 600;
+  font-weight: 800;
   cursor: pointer;
   /* border-bottom: 3px solid #717173; */
   margin-top: 1em;
@@ -45,11 +46,13 @@
   font-size: 1.1em;
   font-weight: 400;
   padding-bottom: 20px;
+  text-align: center;
 }
 .experience {
   word-wrap: break-word;
   color: #717173;
   padding-left: 80px;
+  text-align: center;
 }
 .experience span {
   font-size: 1.5em;
@@ -64,6 +67,7 @@
   word-wrap: break-word;
   color: #717173;
   padding-left: 80px;
+  text-align: center;
 }
 .certification span {
   font-size: 1.5em;
@@ -90,6 +94,43 @@
   color: #019fb6;
   border: none;
 }
-.linksmain:focus {
-  border-bottom: solid 3px #019fb6;
+.linksmain:active {
+  color: solid 3px #019fb6;
+}
+
+.skillactive {
+  color: #e56a84;
+  /* border-bottom: 3px solid #e56a84; */
+  transform: scale(1.2);
+}
+.eduactive {
+  color: #e56a84;
+  /* border-bottom: 3px solid #e56a84; */
+  transform: scale(1.2);
+}
+.expactive {
+  color: #e56a84;
+  /* border-bottom: 3px solid #e56a84; */
+  transform: scale(1.2);
+}
+
+@media only screen and (min-width: 1024px) {
+  .image img {
+    height: 27em;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .image img {
+    margin-top: 15px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .links {
+    margin-left: 60px;
+  }
+}
+@media only screen and (min-width: 300px) {
+  .links {
+    margin-left: 15px;
+  }
 }
